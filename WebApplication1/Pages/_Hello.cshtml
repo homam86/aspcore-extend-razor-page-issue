@@ -1,3 +1,4 @@
-﻿@model WebApplication1.Models.HelloModel
+﻿@inherits WebApplication1.Razor.CustomMvcRazorPage<TModel>
+@model WebApplication1.Models.HelloModel
 
 <div class="alert alert-success">Welcom to our Partial View @SayHi(Model.Name)</div>
