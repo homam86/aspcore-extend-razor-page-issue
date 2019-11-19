@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace WebApplication1.Pages.Models
+namespace WebApplication1.Models
 {
     public class HelloModel
     {
